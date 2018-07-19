@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: J8cfVjJNM+Jl9a0llHWmUbflIhlMP1DbCqgyUvuZb8rl2nlRV012qoWPdCTh1zZOsRO64v0EGRLtkNMJ8nJNVdvrQ/pfziJ+8O0j5tBTxIxDamcTsf6umsJOb4dWvuyYLG+Xrrnb28PoX3z1JrUfxN/Y1MnlSxTsoc5W4s5cpN40rMjN8CErpAgLxXzI0ZFQZMVsMjcXLRrzpJzuwWsGV9vyuE1ui+quekrTvkyzjCSzQdWdsAaiQqZEzXi6qrpdtk1WakqR/mRHSpmqiInBJzurYNzQg3GGH3gb/VFnrmTNMBuF69OmS+U96yvOUo9BsNbJE+L86atjUP/Q8osRsBO47EQ2y1c16a38HWkPZRP48aOd+/wQOmMTbC8uAqI7Nyf0D/pilB4WaoMhThe5H6Eish08NyzbMO/kFTSS1jXXRf1eLU5oMNCpqfw+EozrfXY2lf5rEIEKmbUtbQDwDMesJEsKds07MsFJuhrX/EEEramdEZpAQzNvtcWvqLgk8lcwqOpiv4oh4z+nOLN0KIurniSLOfT5ZdVp7PFp06EaF1U6oaemYjXc47W3LoAy9BuXl9tO0EtPJT6liYvyWAjIf849Qww+jDwMi2wwmkoc2UbQZY/f2SXnwKIe8a+JXvw4FVp2z8t+RQj6K0tZhcau6/R/+T+E+JXS2/YIzdk=
+  app: afternoon-earth-64248
+  on:
+    repo: Thinkful-Ed/node-shopping-list-integration-tests
